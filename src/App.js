@@ -1,5 +1,5 @@
 import React from "react";
-import Ex4 from './component/Ex4'
+import Ex8 from './component/Ex8'
 
 function App(props) {
   return (
@@ -9,7 +9,7 @@ function App(props) {
           <div className="display-3 text-success">React Hooks</div>
         </div>
       </div>
-      <Ex4/>
+      <Ex8/>
     </div>
   )
 }
