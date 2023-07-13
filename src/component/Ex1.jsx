@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 const Ex1 = (props) => {
     //const [state,handler] = useState(initial value)
 
-    //state is initial variable -> state is privaye to component
+    //state is initial variable -> state is private to component
     const[x,setX] = useState(1);//mutable states
 
     const[title,setTitle] = useState('welcome to state')
@@ -21,7 +21,7 @@ const Ex1 = (props) => {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-12 text-center'>
-                    <div className='display-4 text-warening'>useState Hook</div>
+                    <div className='display-4 text-warning'>useState Hook</div>
                 </div>
             </div>
             <div className='row'>

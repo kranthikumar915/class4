@@ -40,7 +40,7 @@ function Ex5(props){
     }
 
    useEffect(() => {
-         getPosts() //async functional call
+         getPosts() //async functional call //mount stage
    },[])
     
 

@@ -20,7 +20,7 @@ function Ex8(props){
         <div className='container'>
             <div className='row'>
                 <div className='ccol-md-12 text-container'>
-                    <h5 className='display-5 text-warning' >formm handling using state and onchange event</h5>
+                    <h5 className='display-5 text-warning' >form handling using state and onchange event</h5>
                 </div>
             </div>
             <div className='row'>
@@ -39,7 +39,6 @@ function Ex8(props){
                                 <div className='form-group mt-2'>
                                     <input type='submit' value='login' className='btn btn-outline-success'></input>
                                 </div>
-
                             </form>
                         </div>
                     </div>

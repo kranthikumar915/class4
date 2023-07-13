@@ -9,7 +9,10 @@ function Ex4(props){
     }
     const decValue =(value)=>{
         console.log('value=',value)
-       setNum(num - value && num ==0 )
+       if(num >= 50){
+        setNum(num -50)
+       }
+       
     }
     return (
         <div className='container'>
