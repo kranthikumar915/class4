@@ -12,7 +12,7 @@ function Ex6(props){
     }
     useLayoutEffect(()=>{
         setLog(x=>[...x,`effect has invoked ${num}`])
-    },[num])
+    },[num])//update stage in lifecycle hook
     
 
     return (

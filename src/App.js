@@ -1,5 +1,6 @@
 import React from "react";
-import Ex6 from './component/Ex6'
+import Ex11 from './component/Ex11'
+
 
 function App(props) {
   return (
@@ -9,7 +10,8 @@ function App(props) {
           <div className="display-3 text-success">React Hooks</div>
         </div>
       </div>
-      <Ex6/>
+      {/* <Ex9 itemPerPage = {20}/> */}
+      <Ex11/>
     </div>
   )
 }
